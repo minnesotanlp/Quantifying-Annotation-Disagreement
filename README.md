@@ -1,9 +1,8 @@
-# Disagreement
-Understand Disagreement in  Social Norms and Subjective Annotation
+# Everyone's Voice Matters: Quantifying Annotation Disagreement Using Demographic Information
+This repository provides datasets and code for preprocessing, training and testing models for quantifying annotation disagreement with the official Hugging Face implementation of the following paper:
 
-Disagreement_data_process.ipynb preprocess 5 datasets, create disagreement binary labels and disagrement continuous rate.
+> Everyone's Voice Matters: Quantifying Annotation Disagreement Using Demographic Information
+> [Ruyuan Wan](https://ruyuanwan.github.io/), [Jaehyung Kim](https://sites.google.com/view/jaehyungkim), [Dongyeop Kang](https://dykang.github.io/) 
+> [AAAI 2023](https://aaai.org/Conferences/AAAI-23/)
 
-BERT.ipybn and GPT2.ipynb predict disagreement for 5 datasets with such input setup:
-1. text
-2. Group demographic + text
-3. one person demographic + text 
+Our code is mainly based on HuggingFace's `transformers` libarary.
