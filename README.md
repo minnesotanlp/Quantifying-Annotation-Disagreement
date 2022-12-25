@@ -19,8 +19,6 @@ The project was tested using Python 3.7.
 
 
 ## Datasets
-You can load our dataset using Hugging Face's `datasets`, and you can also download the raw data in [datasets/](https://github.com/minnesotanlp/Quantifying-Annotation-Disagreement/tree/main/dataset) <br>
-
 We used public datasets of subjective tasks that contain annotators’ voting records from their original raw dataset <br>
 
 - [Social Bias Corpus](https://maartensap.com/social-bias-frames/index.html) 
@@ -29,6 +27,7 @@ We used public datasets of subjective tasks that contain annotators’ voting re
 - [Dyna-Sentiment](https://github.com/cgpotts/dynasent)
 - [Wikipedia Politeness](https://convokit.cornell.edu/documentation/wiki_politeness.html)
 
+You can load our processed version of disagreement datasets using Hugging Face's `datasets`, and you can also download the disagreement datasets in [datasets/](https://github.com/minnesotanlp/Quantifying-Annotation-Disagreement/tree/main/dataset) <br>
 
 ## Models
 
