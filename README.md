@@ -32,5 +32,4 @@ You can load our processed version of disagreement datasets using Hugging Face's
 ## Models
 
 ![plot](https://github.com/minnesotanlp/Quantifying-Annotation-Disagreement/blob/main/code/Quantifying_Disagreement.png)
-<img src="[drawing.jpg](https://github.com/minnesotanlp/Quantifying-Annotation-Disagreement/blob/main/code/Quantifying_Disagreement.png)" alt="drawing" width="200"/>
 ## Citation
