@@ -7,5 +7,21 @@ This repository provides datasets and code for preprocessing, training and testi
 
 Our code is mainly based on HuggingFace's `transformers` libarary.
 
+## Installation
+The following command installs all necessary packages:
+```
+pip install -r requirements.txt
+```
+The project was tested using Python 3.7.
+
+
+## HuggingFace Integration
+
+
 ## Datasets
 You can load our dataset using Hugging Face's `datasets`, and you can also download the raw data in datasets/ <br>
+
+
+## Models
+
+## Citation
