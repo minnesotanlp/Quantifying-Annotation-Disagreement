@@ -19,7 +19,7 @@ The project was tested using Python 3.7.
 
 
 ## Datasets
-You can load our dataset using Hugging Face's `datasets`, and you can also download the raw data in datasets/ <br>
+You can load our dataset using Hugging Face's `datasets`, and you can also download the raw data in [datasets/](https://github.com/minnesotanlp/Quantifying-Annotation-Disagreement/tree/main/dataset) <br>
 
 
 ## Models
