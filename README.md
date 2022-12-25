@@ -6,3 +6,6 @@ This repository provides datasets and code for preprocessing, training and testi
 > [AAAI 2023](https://aaai.org/Conferences/AAAI-23/) <br>
 
 Our code is mainly based on HuggingFace's `transformers` libarary.
+
+## Datasets
+You can load our dataset using Hugging Face's `datasets`, and you can also download the raw data in datasets/ <br>
