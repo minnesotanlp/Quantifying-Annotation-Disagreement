@@ -20,8 +20,8 @@ We uploaded both our datasets and model checkpoints to Hugging Face's [repo](htt
 ```python
 # load our dataset
 from datasets import load_dataset
-dataset = load_dataset("RuyuanWan/SBIC_disagreement")
-
+dataset = load_dataset("RuyuanWan/SBIC_Disagreement")
+# you can replace "SBIC_Disagreement" to "SChem_Disagreement", "Dilemmas_Disagreement", "Dynasent_Disagreement" or "Politeness_Disagreement" to change datasets
 ```
 
 ## Datasets
