@@ -16,7 +16,7 @@ The project was tested using Python 3.7.
 
 
 ## HuggingFace Integration
-We uploaded both our datasets and model checkpoints to Hugging Face's [repo]https://huggingface.co/RuyuanWan). You can directly load our data using `datasets` and load our model using `transformers`.
+We uploaded both our datasets and model checkpoints to Hugging Face's [repo](https://huggingface.co/RuyuanWan). You can directly load our data using `datasets` and load our model using `transformers`.
 ```python
 # load our dataset
 from datasets import load_dataset
