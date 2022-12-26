@@ -16,7 +16,13 @@ The project was tested using Python 3.7.
 
 
 ## HuggingFace Integration
+We uploaded both our datasets and model checkpoints to Hugging Face's [repo]https://huggingface.co/RuyuanWan). You can directly load our data using `datasets` and load our model using `transformers`.
+```python
+# load our dataset
+from datasets import load_dataset
+dataset = load_dataset("RuyuanWan/SBIC_disagreement")
 
+```
 
 ## Datasets
 We used public datasets of subjective tasks that contain annotators’ voting records from their original raw dataset <br>
