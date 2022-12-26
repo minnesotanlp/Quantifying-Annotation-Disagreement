@@ -27,11 +27,12 @@ dataset = load_dataset("RuyuanWan/SBIC_disagreement")
 ## Datasets
 We used public datasets of subjective tasks that contain annotators’ voting records from their original raw dataset <br>
 
-- [Social Bias Corpus](https://maartensap.com/social-bias-frames/index.html) 
-- [Social Chemistry 101](https://github.com/mbforbes/social-chemistry-101)
-- [Scruples-dilemmas](https://github.com/allenai/scruples)
-- [Dyna-Sentiment](https://github.com/cgpotts/dynasent)
-- [Wikipedia Politeness](https://convokit.cornell.edu/documentation/wiki_politeness.html)
+- [Social Bias Corpus(Sap et al. 2020)](https://maartensap.com/social-bias-frames/index.html) 
+- [Social Chemistry 101(Forbes et al. 2020)](https://github.com/mbforbes/social-chemistry-101)
+- [Scruples-dilemmas(Lourie, Bras, and Choi 2021)](https://github.com/allenai/scruples)
+- [Dyna-Sentiment(Potts et al. 2021)](https://github.com/cgpotts/dynasent)
+- [Wikipedia Politeness(Danescu-Niculescu-Mizil et al.
+2013)](https://convokit.cornell.edu/documentation/wiki_politeness.html)
 
 You can load our processed version of disagreement datasets using Hugging Face's `datasets`, and you can also download the disagreement datasets in [datasets/](https://github.com/minnesotanlp/Quantifying-Annotation-Disagreement/tree/main/dataset) <br>
 
