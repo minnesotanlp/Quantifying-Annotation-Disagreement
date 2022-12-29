@@ -22,6 +22,12 @@ We uploaded both our datasets and model checkpoints to Hugging Face's [repo](htt
 from datasets import load_dataset
 dataset = load_dataset("RuyuanWan/SBIC_Disagreement")
 # you can replace "SBIC_Disagreement" to "SChem_Disagreement", "Dilemmas_Disagreement", "Dynasent_Disagreement" or "Politeness_Disagreement" to change datasets
+
+# load our model
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+tokenizer = AutoTokenizer.from_pretrained("RuyuanWan/SBIC_RoBERTa_Demographic-text_Disagreement_Predictor")
+model = AutoModelForSeq2SeqLM.from_pretrained("RuyuanWan/SBIC_RoBERTa_Demographic-text_Disagreement_Predictor")
+# you can replace "SBIC_RoBERTa_Demographic-text_Disagreement_Predictor" to other pretrained models
 ```
 
 ## Datasets
