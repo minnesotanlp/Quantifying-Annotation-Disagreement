@@ -5,3 +5,14 @@ datasets==1.18.3
 nltk
 spacy
 numpy
+convokit
+lime
+pandas
+sklearn
+simpletransformers
+logging
+itertools
+statistics
+math
+matplotlib
+seaborn
