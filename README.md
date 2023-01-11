@@ -30,6 +30,9 @@ model = AutoModelForSeq2SeqLM.from_pretrained("RuyuanWan/SBIC_RoBERTa_Demographi
 # you can replace "SBIC_RoBERTa_Demographic-text_Disagreement_Predictor" to other pretrained models
 ```
 
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V-NC0DJ5q-7ePyuXhIgVumtRcRSl8-SD?usp=sharing)<br>
+We also provided a simple [demo code](https://colab.research.google.com/drive/1V-NC0DJ5q-7ePyuXhIgVumtRcRSl8-SD?usp=sharing) for how to use them to predict disagreement. 
+
 ## Datasets
 We used public datasets of subjective tasks that contain annotators’ voting records from their original raw dataset <br>
 
