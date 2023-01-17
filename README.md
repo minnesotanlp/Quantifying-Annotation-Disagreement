@@ -24,10 +24,22 @@ dataset = load_dataset("RuyuanWan/SBIC_Disagreement")
 # you can replace "SBIC_Disagreement" to "SChem_Disagreement", "Dilemmas_Disagreement", "Dynasent_Disagreement" or "Politeness_Disagreement" to change datasets
 
 # load our model
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-tokenizer = AutoTokenizer.from_pretrained("RuyuanWan/SBIC_RoBERTa_Demographic-text_Disagreement_Predictor")
-model = AutoModelForSeq2SeqLM.from_pretrained("RuyuanWan/SBIC_RoBERTa_Demographic-text_Disagreement_Predictor")
+from simpletransformers.classification import ClassificationModel, ClassificationArgs
+model_args = ClassificationArgs()
+model_args.regression = True
+SBIC_person_demo_col_regression = ClassificationModel(
+    "roberta",
+    "RuyuanWan/SBIC_RoBERTa_Demographic-text_Disagreement_Predictor",
+    num_labels=1,
+    args=model_args
+)
 # you can replace "SBIC_RoBERTa_Demographic-text_Disagreement_Predictor" to other pretrained models
+
+#predict
+# you can replace example text to other random examples. 
+text_example1 = ['Abortion should be legal']
+predict1, raw_outputs1 = SBIC_person_demo_col_regression.predict(text_example1)
+print(predict1)
 ```
 
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1V-NC0DJ5q-7ePyuXhIgVumtRcRSl8-SD?usp=sharing)<br>
