@@ -1,7 +1,7 @@
 # Everyone's Voice Matters: Quantifying Annotation Disagreement Using Demographic Information
 This repository provides datasets and code for preprocessing, training and testing models for quantifying annotation disagreement with the official Hugging Face implementation of the following paper:
 
-> Everyone's Voice Matters: Quantifying Annotation Disagreement Using Demographic Information <br>
+> [Everyone's Voice Matters: Quantifying Annotation Disagreement Using Demographic Information](https://arxiv.org/abs/2301.05036) <br>
 > [Ruyuan Wan](https://ruyuanwan.github.io/), [Jaehyung Kim](https://sites.google.com/view/jaehyungkim), [Dongyeop Kang](https://dykang.github.io/) <br>
 > [AAAI 2023](https://aaai.org/Conferences/AAAI-23/) <br>
 
@@ -72,6 +72,6 @@ Here are the different models that we stored at Hugging Face.
 - <a target="_blank"  href="https://huggingface.co/RuyuanWan/Dilemmas_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/Dilemmas_RoBERTa_Text_Disagreement_Predictor"</a>:Disagreement predictor trained on Dilemmas text(regression);
 - <a target="_blank" href="RuyuanWan/Dynasent_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/Dynasent_RoBERTa_Text_Disagreement_Binary_Classifier"</a>: Binary diagreement classifier trained on Dilemmas text;
 - <a target="_blank"  href="https://huggingface.co/RuyuanWan/Dynasent_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/Dynasent_RoBERTa_Text_Disagreement_Predictor"</a>:Disagreement predictor trained on Dynasent text(regression);
-- - <a target="_blank" href="RuyuanWan/Politeness_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/Politeness_RoBERTa_Text_Disagreement_Binary_Classifier"</a>: Binary diagreement classifier trained on Politeness text;
+- <a target="_blank" href="RuyuanWan/Politeness_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/Politeness_RoBERTa_Text_Disagreement_Binary_Classifier"</a>: Binary diagreement classifier trained on Politeness text;
 - <a target="_blank"  href="https://huggingface.co/RuyuanWan/Politeness_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/Politeness_RoBERTa_Text_Disagreement_Predictor"</a>:Disagreement predictor trained on Politeness text(regression);
 ## Citation
