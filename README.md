@@ -54,6 +54,17 @@ Here are the five datasets with disagreement labels. You can change the followin
 
 
 ## Models
-
 ![plot](https://github.com/minnesotanlp/Quantifying-Annotation-Disagreement/blob/main/code/Quantifying_Disagreement.png)
+
+In our disagreement prediction experiments, we compared the effect of binary v.s. continous disagreement labels, only text input v.s. text with annotator's demographic information, and text with group-wise annotator's demographic information v.s. text with personal level annotator's demographic information. 
+
+Here are the different models that we stored at Hugging Face. 
+- <a target="_blank" href="https://huggingface.co/RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Binary_Classifie"</a>: Binary diagreement classifier trained on SBIC text;
+- <a target="_blank" href="https://huggingface.co/RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Predictor"</a>: Disagreement predictor trained on SBIC text(regression);
+- <a target="_blank" href="https://huggingface.co/RuyuanWan/SBIC_RoBERTa_Demographic-text_Disagreement_Predictor">"RuyuanWan/SBIC_RoBERTa_Demographic-text_Disagreement_Predictor"</a>: Disagreement predictor trained on SBIC text and individual annotator's demographic information in colon templated format;
+- <a target="_blank" href="https://huggingface.co/RuyuanWan/SChem_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/SChem_RoBERTa_Text_Disagreement_Binary_Classifier"</a>: Binary diagreement classifier trained on SChem text;
+- <a target="_blank" href="https://huggingface.co/RuyuanWan/SChem_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/SChem_RoBERTa_Text_Disagreement_Predictor"</a>: Disagreement predictor trained on SChem text(regression);
+- <a target="_blank" href="https://huggingface.co/RuyuanWan/SChem_RoBERTa_Demographic-text_Disagreement_Predictor">"RuyuanWan/SChem_RoBERTa_Demographic-text_Disagreement_Predictor"</a>: Disagreement predictor trained on Schem text and individual annotator's demographic information in colon templated format;
+
+
 ## Citation
