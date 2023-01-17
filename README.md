@@ -66,7 +66,7 @@ Here are the five datasets with disagreement labels. You can change the followin
 
 <table>
     <tr>
-        <th>target="_blank" href="https://huggingface.co/datasets/RuyuanWan/SBIC_Disagreement">"RuyuanWan/SBIC_Disagreement"</th>
+        <th>[RuyuanWan/SBIC_Disagreement](https://huggingface.co/datasets/RuyuanWan/SBIC_Disagreement")</th>
         <th>SBIC dataset with disagreement labels</th>
     </tr>
 </table>
