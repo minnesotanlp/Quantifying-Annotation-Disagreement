@@ -152,3 +152,13 @@ Here are the different models that we stored at Hugging Face.
 </table>
 
 ## Citation
+If you find this work useful for your research, please cite our papers:
+
+```
+@article{wan2023everyone,
+  title={Everyone's Voice Matters: Quantifying Annotation Disagreement Using Demographic Information},
+  author={Wan, Ruyuan and Kim, Jaehyung and Kang, Dongyeop},
+  journal={arXiv preprint arXiv:2301.05036},
+  year={2023}
+}
+```
