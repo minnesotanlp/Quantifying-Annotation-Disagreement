@@ -64,6 +64,12 @@ Here are the five datasets with disagreement labels. You can change the followin
 - <a target="_blank" href="https://huggingface.co/datasets/RuyuanWan/Dynasent_Disagreement">"RuyuanWan/Dynasent_Disagreement"</a>: Dynasent dataset with disagreement labels;
 - <a target="_blank" href="https://huggingface.co/datasets/RuyuanWan/Politeness_Disagreement">"RuyuanWan/Politeness_Disagreement"</a>: Politeness dataset with disagreement labels;
 
+<table>
+    <tr>
+        <th>target="_blank" href="https://huggingface.co/datasets/RuyuanWan/SBIC_Disagreement">"RuyuanWan/SBIC_Disagreement"</th>
+        <th>SBIC dataset with disagreement labels</th>
+    </tr>
+</table>
 
 ## Models
 In our disagreement prediction experiments, we compared:
