@@ -45,7 +45,7 @@ We used public datasets of subjective tasks that contain annotators’ voting re
 
 You can load our processed version of disagreement datasets using Hugging Face's `datasets`, and you can also download the disagreement datasets in [datasets/](https://github.com/minnesotanlp/Quantifying-Annotation-Disagreement/tree/main/dataset) <br>
 
-Here are the five datasets with disagreement labels. You can change the following data specifications in using Hugging Face's 'datasets':
+Here are the five datasets with disagreement labels. You can change the following data specifications in using Hugging Face's `datasets`:
 - <a target="_blank" href="https://huggingface.co/datasets/RuyuanWan/SBIC_Disagreement">"RuyuanWan/SBIC_Disagreement"</a>: SBIC dataset with disagreement labels;
 - <a target="_blank" href="https://huggingface.co/datasets/RuyuanWan/SChem_Disagreement">"RuyuanWan/SChem_Disagreement"</a>: SChem dataset with disagreement labels;
 - <a target="_blank" href="https://huggingface.co/datasets/RuyuanWan/Dilemmas_Disagreement">"RuyuanWan/Dilemmas_Disagreement"</a>: Dilemmas dataset with disagreement labels;
