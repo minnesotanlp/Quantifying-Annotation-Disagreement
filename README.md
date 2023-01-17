@@ -95,16 +95,67 @@ In our disagreement prediction experiments, we compared:
 ![plot](https://github.com/minnesotanlp/Quantifying-Annotation-Disagreement/blob/main/code/Quantifying_Disagreement.png)
 
 Here are the different models that we stored at Hugging Face. 
-- <a target="_blank" href="https://huggingface.co/RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Binary_Classifie"</a>: Binary diagreement classifier trained on SBIC text;
-- <a target="_blank" href="https://huggingface.co/RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Predictor"</a>: Disagreement predictor trained on SBIC text(regression);
-- <a target="_blank" href="https://huggingface.co/RuyuanWan/SBIC_RoBERTa_Demographic-text_Disagreement_Predictor">"RuyuanWan/SBIC_RoBERTa_Demographic-text_Disagreement_Predictor"</a>: Disagreement predictor trained on SBIC text and individual annotator's demographic information in colon templated format;
-- <a target="_blank" href="https://huggingface.co/RuyuanWan/SChem_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/SChem_RoBERTa_Text_Disagreement_Binary_Classifier"</a>: Binary diagreement classifier trained on SChem text;
-- <a target="_blank" href="https://huggingface.co/RuyuanWan/SChem_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/SChem_RoBERTa_Text_Disagreement_Predictor"</a>: Disagreement predictor trained on SChem text(regression);
-- <a target="_blank" href="https://huggingface.co/RuyuanWan/SChem_RoBERTa_Demographic-text_Disagreement_Predictor">"RuyuanWan/SChem_RoBERTa_Demographic-text_Disagreement_Predictor"</a>: Disagreement predictor trained on Schem text and individual annotator's demographic information in colon templated format;
+
 - <a target="_blank" href="RuyuanWan/Dilemmas_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/Dilemmas_RoBERTa_Text_Disagreement_Binary_Classifier"</a>: Binary diagreement classifier trained on Dilemmas text;
 - <a target="_blank"  href="https://huggingface.co/RuyuanWan/Dilemmas_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/Dilemmas_RoBERTa_Text_Disagreement_Predictor"</a>:Disagreement predictor trained on Dilemmas text(regression);
 - <a target="_blank" href="RuyuanWan/Dynasent_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/Dynasent_RoBERTa_Text_Disagreement_Binary_Classifier"</a>: Binary diagreement classifier trained on Dilemmas text;
 - <a target="_blank"  href="https://huggingface.co/RuyuanWan/Dynasent_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/Dynasent_RoBERTa_Text_Disagreement_Predictor"</a>:Disagreement predictor trained on Dynasent text(regression);
 - <a target="_blank" href="RuyuanWan/Politeness_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/Politeness_RoBERTa_Text_Disagreement_Binary_Classifier"</a>: Binary diagreement classifier trained on Politeness text;
 - <a target="_blank"  href="https://huggingface.co/RuyuanWan/Politeness_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/Politeness_RoBERTa_Text_Disagreement_Predictor"</a>:Disagreement predictor trained on Politeness text(regression);
+
+<table>
+    <tr>
+        <th>Model name in Hugging Face</th>
+        <th>Model information</th>
+    </tr>
+    <tr>
+        <td><a target="_blank" href="https://huggingface.co/RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Binary_Classifie"</a></td>
+        <td>Binary diagreement classifier trained on SBIC text</td>
+    </tr>
+    <tr>
+        <td><a target="_blank" href="https://huggingface.co/RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/SBIC_RoBERTa_Text_Disagreement_Predictor"</a></td>
+        <td>Disagreement predictor trained on SBIC text(regression)</td>
+    </tr>
+    <tr>
+        <td><a target="_blank" href="https://huggingface.co/RuyuanWan/SBIC_RoBERTa_Demographic-text_Disagreement_Predictor">"RuyuanWan/SBIC_RoBERTa_Demographic-text_Disagreement_Predictor"</a></td>
+        <td>Disagreement predictor trained on SBIC text and individual annotator's demographic information in colon templated format</td>
+    </tr>
+    <tr>
+        <td><a target="_blank" href="https://huggingface.co/RuyuanWan/SChem_RoBERTa_Text_Disagreement_Binary_Classifier">"RuyuanWan/SChem_RoBERTa_Text_Disagreement_Binary_Classifier"</a></td>
+        <td>Binary diagreement classifier trained on SChem text</td>
+    </tr>
+    <tr>
+        <td><a target="_blank" href="https://huggingface.co/RuyuanWan/SChem_RoBERTa_Text_Disagreement_Predictor">"RuyuanWan/SChem_RoBERTa_Text_Disagreement_Predictor"</a></td>
+        <td>Disagreement predictor trained on SChem text(regression)</td>
+    </tr>
+    <tr>
+        <td><a target="_blank" href="https://huggingface.co/RuyuanWan/SChem_RoBERTa_Demographic-text_Disagreement_Predictor">"RuyuanWan/SChem_RoBERTa_Demographic-text_Disagreement_Predictor"</a></td>
+        <td>Disagreement predictor trained on Schem text and individual annotator's demographic information in colon templated format</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
 ## Citation
